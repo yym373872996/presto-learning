@@ -1,3 +1,5 @@
 # Project exclude paths
 /presto-learning-jdbc/target/
 /presto-learning-springboot/target/
+/.idea/
+/presto-learning.iml

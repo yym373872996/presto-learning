@@ -1,0 +1,18 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8081
+spring:
+  application:
+    name: presto-learning-springboot
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  datasource:
+    presto:
+      name: presto
+      driver-class-name: com.facebook.presto.jdbc.PrestoDriver
+      url: jdbc:presto://localhost:8080
+      username: root
